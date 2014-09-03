@@ -36,7 +36,12 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
+  background: url('../bgpano.jpg');
+  /*repsonsive approach*/
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  
   width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
@@ -65,7 +70,7 @@ header h1:before {
 header h2 {
   font-size: 18px;
   font-weight: 300;
-  color: #666;
+  color: #f4f4f4;
 }
 
 #downloads .btn {
